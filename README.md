@@ -8,8 +8,9 @@
 ## Как начать работать с Git!
 
 **Установи GIT**
-```no-highlight
+
 для Windows > http://msysgit.github.io
+```no-highlight
 для RPM > yum install git-core
 для DEB > apt-get install git
 ```
