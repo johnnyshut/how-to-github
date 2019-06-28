@@ -9,8 +9,8 @@
 
 **Установи GIT**
 
-для Windows > http://msysgit.github.io
 ```no-highlight
+для Windows скачать по ссылке http://msysgit.github.io
 для RPM > yum install git-core
 для DEB > apt-get install git
 ```
