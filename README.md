@@ -8,7 +8,7 @@
 
 **Установи GIT**
 ```no-highlight
-для Windows > http://msysgit.github.io/
+для Windows > http://msysgit.github.io
 для RPM > yum install git-core
 для DEB > apt-get install git
 ```
@@ -91,4 +91,3 @@ git checkout v1                 // откат до установленного 
 *P.S. Все команды актуальны для любого сервиса Git
 Перед работай с Git зарегистрируйся на github.com и создайте репозиторий
 Инструкция по созданию репозитория https://help.github.com/en/articles/creating-a-new-repository*
-
