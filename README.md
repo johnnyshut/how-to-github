@@ -36,7 +36,7 @@ cd ./PROJECTNAME            // открываем каталог проекта
 ```no-highlight
 git remote add origin https://github.com/johnnyshut/HowToGitHub     // создаем ветвь разработки "origin" в удаленном репозитории
 git fetch origin                                                    // получение изменений и вывод их на экран
-git merge origin/master                                             // объединяет изменений и локального проекта
+git merge origin/master                                             // объединение изменений с локальным проектом
 ```
 
 **Создай файл в локальном репозитории**
