@@ -6,61 +6,61 @@
 
 **Установи GIT**
 
-```no-highlight
+```sh
 для Windows скачать по ссылке http://msysgit.github.io
 для RPM > yum install git-core
 для DEB > apt-get install git
 ```
 
 **Настрой Git, так Git связывает Ваш аккаунт и Ваши изменения**
-```no-highlight
+```sh
 git config --global user.name JohnnyDoe         // Ваше имя
 git config --global user.email jshut@yandex.ru  // Ваш Email
 ```
 
 **Настрой Git для Windows**
-```no-highlight
+```sh
 git config --global core.autocrlf true
 git config --global core.safecrlf false
 git config --global core.eol native
 ```
 
 **Создай локальный GIT репозиторий для своего продукта**
-```no-highlight
+```sh
 cd ./git                    // открываем каталог "git" в папке пользователя OS
 git init ./PROJECTNAME      // инициализируем каталог проекта. <PROJECTNAME> - любое имя вашего проекта, может не совпадать с именем удаленного репозитория.
 cd ./PROJECTNAME            // открываем каталог проекта
 ```
 
 **Подключи стандартные каталоги**
-```no-highlight
+```sh
 git remote add origin https://github.com/johnnyshut/HowToGitHub     // создаем ветвь разработки "origin" в удаленном репозитории
 git fetch origin                                                    // получение изменений и вывод их на экран
 git merge origin/master                                             // объединение изменений с локальным проектом
 ```
 
 **Создай файл в локальном репозитории**
-```no-highlight
+```sh
 mkdir hello             // создадим каталог в локальном репозитории
 cd hello                // перейдем в созданный каталог "hello"
 touch helloWorld.txt    // создадим файл "helloWorld.txt"!
 ```
 
 **Свяжи новый файл с удаленным репозиторием**
-```no-highlight
+```sh
 git add helloWorld.txt          // отмечаем файл для отправки или команда "git add .", чтобы отметить все файлы 
 git commit -m "First Commit"    // помечаем все новые и измененные файлы сообщением (commit)
 ```
 
 **Отправь код на удаленный репозиторий**
-```no-highlight
+```sh
 git push -u origin master   // флаги используются только в первый раз, потом используем команду без флагов "git push"
 git status                  // вывод информации об изменениях которые были сделаны
 git pull                    // скачивание репозитория, полностью. Выполняет последовательно fetch и merge, без вывода на экран статусов
 ```
 
 **Как вызвать справку?**
-```no-highlight
+```sh
 git help <команда>
 git <команда> --help
 man git-<команда>
@@ -69,12 +69,12 @@ man git-<команда>
 ## Подключаемся на другом компьютере:
 
 **Клонирование репозитория**
-```no-highlight
+```sh
 git clone https://github.com/johnnyshut/HowToGitHub     // git скачает удаленный репозиторий в новую папку HowToGitHub и создаст локальный репозиторий
 ```
 
 **После изменений в локальном репозитории, выполняем команды**
-```no-highlight
+```sh
 git add .
 git commit -m "I changed the my life!"
 git push
