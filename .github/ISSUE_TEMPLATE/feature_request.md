@@ -1,20 +1,20 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+название: Запрос функции
+о функции: Предложить идею для этого проекта
+заголовок: ''
+метки: ''
+ответственный: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Ваш запрос функции связан с проблемой? Пожалуйста, опишите её.**
+Четкое и краткое описание проблемы. Пример: Я всегда расстраиваюсь, когда [...].
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Опишите решение, которое вы хотите получить**
+Четкое и краткое описание того, что вы хотите, чтобы произошло.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Опишите альтернативы, которые вы рассматриваете**
+Четкое и краткое описание любых альтернативных решений или функций, которые вы рассматриваете.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Дополнительный контекст**
+Добавьте любой другой контекст или скриншоты о запрашиваемой функции, здесь.
