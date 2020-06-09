@@ -27,6 +27,14 @@ git config --global core.safecrlf false
 git config --global core.eol native
 ```
 
+## Настрой Git для работы на Windows с репозиторием использующимся в Linux
+
+```sh
+git config --global core.autocrlf input
+git config --global core.safecrlf false
+git config --global core.eol native
+```
+
 ## Создай локальный GIT репозиторий для своего продукта
 
 ```sh
